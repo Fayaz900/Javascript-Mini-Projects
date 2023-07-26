@@ -37,13 +37,46 @@ body{
 }
 
 .movielist{
-    width: 100%;
-    padding: 50px 50px;
+    width: 90%;
+    padding: 50px 30px 50px 50px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    justify-content: center;
 }
 
 .box{
     width: 300px;
     height: 400px;
     background-color: #fff;
+    border-radius: 10px;
+}
+
+.posimg{
+    width: 290px;
+    height: 250px;
+    padding: 5px 5px;
+    border-radius: 10px;
+}
+#moviename{
+    font-size: 20px;
+    padding: 0 5px;
+}
+.des{
+    padding: 5px 5px;
+}
+
+.search{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    height: 150px;
+    align-items: center;
+}
+
+.search input{
+    width: 50%;
+    height: 50px;
+    font-size: 38px;
     border-radius: 10px;
 }
